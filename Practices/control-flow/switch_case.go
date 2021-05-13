@@ -1,5 +1,4 @@
 // Create a program that uses a switch statement with the switch expression specified as a variable
-// which prints the type of the variable
 
 package main
 
