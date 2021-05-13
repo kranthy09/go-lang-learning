@@ -24,12 +24,12 @@ const (
 )
 
 func main() {
-	fmt.Printf("present year: %v", presentYear)
-	fmt.Printf("after one year: %v", afterOneYear)
-	fmt.Printf("after two years: %v", afterTwoYears)
-	fmt.Printf("after three years: %v", afterThreeYears)
+	fmt.Printf("present year: %v\n", presentYear)          // prints 2021
+	fmt.Printf("after one year: %v\n", afterOneYear)       // prints 2022
+	fmt.Printf("after two years: %v\n", afterTwoYears)     // prints 2023
+	fmt.Printf("after three years: %v\n", afterThreeYears) // prints 2024
 
 	// as the we have declared a, b constants with iota, iota value will be reset to zero
-	fmt.Printf("value of a: %v", a) // prints 0
-	fmt.Printf("value of a: %v", b) // print 1
+	fmt.Printf("value of a: %v\n", a) // prints 0
+	fmt.Printf("value of a: %v\n", b) // print 1
 }
