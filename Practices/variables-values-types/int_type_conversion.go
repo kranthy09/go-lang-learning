@@ -19,9 +19,9 @@ var x myType = 54
 var y int
 
 func main() {
-	y = int(x)                                                            // conversion from myType to int and assign it to var y
-	fmt.Println(y)                                                        //prints 42
+	y = int(x)     // conversion from myType to int and assign it to var y
+	fmt.Println(y) //prints 42
 	fmt.Printf(
-		"var:%v has type: %T\n var:%v has type: %T\n", x, x, y, y
-	) // prints the type of the x, y
+		"var:%v has type: %T\n var:%v has type: %T\n", x, x, y, y)
+	// prints the type of the x, y
 }
