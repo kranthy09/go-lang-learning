@@ -14,8 +14,8 @@ func main() {
 	for index, value := range names {
 		fmt.Println("Record: ")
 		fmt.Println(index, value)
-		// range over each record
 		fmt.Println("Each value in record: ")
+		// range over each record
 		for index, value := range names[index] {
 			fmt.Println(index, value)
 		}
