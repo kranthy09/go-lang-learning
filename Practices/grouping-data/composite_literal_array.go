@@ -22,4 +22,23 @@ func main() {
 
 	// print out TYPE of the array
 	fmt.Printf("TYPE of arr: %T\n", arr)
+
+	// create a sclie of TYPE STRING using composite literal
+	states := []string{
+
+		` Alabama`, ` Alaska`, ` Arizona`,
+		` Arkansas`, ` California`, ` Colorado`,
+		` Connecticut`, ` Delaware`, ` Florida`,
+	}
+
+	// prints length of slice
+	fmt.Println(`length of "state":`, len(states))
+
+	// prints capacity of slice
+	fmt.Println(`Capacity of "state"`, cap(states))
+
+	// prints the values, along with index
+	for i := 0; i < len(states); i++ {
+		fmt.Println("index: ", i, "value: ", states[i])
+	}
 }
