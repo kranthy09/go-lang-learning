@@ -17,4 +17,16 @@ func main() {
 			fmt.Println("index: ", index, "value: ", value)
 		}
 	}
+
+	// add record to map
+	x["k_k"] = []string{`nobita`, "doreman", "skywalker"}
+
+	// print the added record
+	fmt.Println("Added record: ", x["k_k"])
+
+	// delete the record
+	delete(x, "no_dr")
+
+	// print the map x
+	fmt.Println(x)
 }
