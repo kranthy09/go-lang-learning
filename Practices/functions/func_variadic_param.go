@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// create a function which taked variadic parameter
+// create a function which takes variadic parameter
 func sum_of_numbers(x ...int) int {
 	total := 0
 	for _, v := range x {
